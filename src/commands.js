@@ -1,9 +1,6 @@
 /**
  * Register new slash commands
  */
-
-require('dotenv').config();
-
 import dotenv from 'dotenv';
 import { REST, Routes, SlashCommandBuilder } from 'discord.js';
 
